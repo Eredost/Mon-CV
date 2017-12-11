@@ -310,7 +310,31 @@ section .heading h2 {
     margin-bottom: 20px;
 }
 
+/* SOCIAL */
 
+#social {
+    
+    background: dodgerblue;
+}
+
+#social .heading h2 {
+    
+    color: #fff;
+}
+
+#social .thumbnail img {
+    
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#social .thumbnail img:hover {
+    
+    filter: none;
+    -webkit-filter: none;
+}
 
 
 
