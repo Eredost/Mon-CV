@@ -1,9 +1,5 @@
 $(document).ready(function(){
     
-    $(".button1").click(function(){
-        alert("Le CV papier n'est pas encore disponible !");
-    });
-    
    $(".navbar a, footer a").on("click", function(event){
        
       event.preventDefault();
